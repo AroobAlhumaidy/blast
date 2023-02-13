@@ -5,7 +5,7 @@
 conda activate V05_236_BLAST
 
 # make database
-makeblastdb -in MPXVdb -dbtype nucl
+makeblastdb -in local_db -dbtype nucl
 
 
 # Run local data aganist the database  
